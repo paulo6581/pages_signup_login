@@ -5,37 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style_signup.css">
 </head>
 <body>
     <main>
         <h1>Creat Account</h1>
         <div class="social-media">
-            <a href=""><img src="assets/images/google.png" alt="Google">
+            <a href="https://www.google.com"><img src="assets/images/google.png" alt="Google">
             </a>
-            <a href=""><img src="assets/images/facebook.png" alt="Facebook">
+            <a href="https://www.facebook.com"><img src="assets/images/facebook.png" alt="Facebook">
             </a>
-            <a href=""><img src="assets/images/linkedin.png" alt="Linkedin">
+            <a href="https://br.linkedin.com"><img src="assets/images/linkedin.png" alt="Linkedin">
             </a>
         </div>
         <div class="alternative">
             <span>OR</span>
         </div>
-        <form action="POST">
+        <form action="" method="POST">
             <!--name-->
             <label for="name">
                 <span>Name</span>
-                <input type="text" id="name" name="name" placeholder="Digit your name">
+                <input type="text" id="name" name="name" placeholder="Digit your name" required minlength="5" maxlenght="30">
             </label>
             <!--Email-->
             <label for="email">
                 <span>E-mail</span>
-                <input type="email" id="email" name="email" placeholder="Digit your email">
+                <input type="email" id="email" name="email" placeholder="Digit your email" required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9.]+$)">
             </label>
             <!--Password-->
             <label for="password">
                 <span>Password</span>
-                <input type="password" id="password" name="password" placeholder="Digit a password">
+                <input type="password" id="password" name="password" placeholder="Digit a password" required minlenght="8" maxlength="25">
             </label>
             <!--submit-->
             <input type="submit" value="Sign Up" id="button">

@@ -11,12 +11,13 @@
     font-family: "Poppins", sans-serif;
 }
 body {
-    background-color: #1B2029;
-    color: #FFF;
+    background-color: #4D05E8;
+    color: #f64c3e;
     font-weight: 500;
     display: var(--d-flex);
     min-height: 100vh;
     min-width: 100vw;
+    text-shadow: #161923 2px 2px;   
 }
 main {
     width: 50vw;
@@ -26,10 +27,11 @@ main {
     justify-content: center;
 }
 main h1 {
-    color: #8880FE;
+    color: #f64c3e;
     margin-bottom: 3rem;
     font-size: 3rem;
     text-align: center;
+    text-shadow: #161923 2px 2px;
 }
 
 /*Social media*/
@@ -94,21 +96,26 @@ main form input {
     outline: none;
     color: #a6a6a6;
     font-size: 1rem;
-    border:1px solid #040B18;
+    border:1px solid #161923;
     border-radius: 8px;
 }
 #button{
     cursor: pointer;
     width: 50%; 
     margin-top: 4rem;
-    background-color: #6C63FF;
+    background-color: #f64c3e;
     border: none;
     border-radius: 32px;
     color: #FFF;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out 0s;
 }
 #button:hover {
-    background-color: #5952D4;
+    background-color: #f64c3e;
+    box-shadow: inset 0 0 20px #161923;
+    transform:  scale(1.3) rotate(360deg);
+    margin-top: 4rem;
+    color: #161923;
+    font-weight: bold;
     
 }
 
@@ -128,7 +135,7 @@ main form input {
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, #E8CBC0, #636FA4);
+    background: linear-gradient(45deg, 	#FFF, #f64c3e, #FF6347);
     clip-path: circle(40% at right 80%);
     z-index: -1;
 }
