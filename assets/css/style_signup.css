@@ -11,13 +11,13 @@
     font-family: "Poppins", sans-serif;
 }
 body {
-    background-color: #4D05E8;
+    background: linear-gradient(60deg, #8E2DE2, #4A00E0);
     color: #f64c3e;
     font-weight: 500;
     display: var(--d-flex);
     min-height: 100vh;
     min-width: 100vw;
-    text-shadow: #161923 2px 2px;   
+    text-shadow: #161923 1px 1px;   
 }
 main {
     width: 50vw;
