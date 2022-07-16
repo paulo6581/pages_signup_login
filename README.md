@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Login and Sign-Up</h1>
 <br>
 <div align="center">
